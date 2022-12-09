@@ -1,10 +1,12 @@
-def sum(a):
-	sum=0
-	for i in a:
-		sum=sum+i
-	print("the sum of the digit is..",sum)
-l1=list(map(int,input("enter the number:").split()))
-sum(l1)
+def sum(lst):
+    total=0
+    for x in range(0,len(lst)):
+        total=total+lst[x]
+    print(total)
+lst=[]
+lst=list(map(int,input("enter the numbers in list").split()))
+sum(lst)
+
 
 
 
